@@ -1,0 +1,244 @@
+* 
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.content
+{
+    width: 960px;
+    margin: 0 auto;
+}
+.content_top
+{
+    padding-top: 100px;
+    display: flex;
+}
+.content_bottom
+{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 134px;
+}
+.image
+{
+    margin-right: 60px;
+    width: 330px;
+    height: 350px; 
+}
+.blockquote
+{
+    padding-bottom: 142px;
+    background-image: url(../images/quotes.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    padding-top: 118px;
+    background-position-y: 50px;
+}
+.content_right
+{
+    width: 570px;
+}
+.content_left
+{
+    width: 330px;
+    margin-right: 60px;
+}
+.about_me
+{
+    margin-bottom: 60px;
+    font: 19px/32px "Georgia", sans-serf;
+    color: #555555;
+}
+.name
+{
+    margin-bottom: 61px;
+    font: 700 48px/1.5 "Open Sans", sans-serf;
+    color: #333333;
+}
+.name::after
+{
+    content: '';
+    width: 60px;
+    height: 6px;
+    background-color: #45c3aa;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    transform: translateY(18px);
+}
+.hobby
+{
+    padding-top: 8px;
+    margin-bottom: 10px;
+    font: 400 36px/1.5 "Open Sans", sans-serf;
+    color: #333333;
+}
+.my_hobby
+{
+    margin-bottom: 107px;
+    font: 19px/32px "Georgia", sans-serf;
+    color: #555555;
+}
+.list
+{
+    margin-bottom: 65px;
+    padding-left: 17px;
+}
+.list_tittle
+{
+    margin-bottom: 35px;
+    font: 600 24px/27px "Open Sans", sans-serif;
+    color: #15a98c;
+}
+.list_element
+{
+    font: 19px/23px "Georgia", sans-serif;
+    color: #555555;
+    margin-bottom: 23px;
+}
+.quote
+{
+    font: Italic 28px/42px "Georgia", sans-serif;
+    color: #848484;
+    padding-left: 59px;
+    margin-bottom: 9px;
+}
+.author
+{
+    font: 600 16px/1.5 "Open Sans", sans-serf;
+    color: #000000;
+    margin-bottom: 168px;
+    padding-left: 64px;
+}
+.vk
+{
+    color: #15a98b;
+    font: 19px/1.5 "Georgia", sans-serf;
+    text-decoration: none;
+}
+.vk::after
+{
+    content: '';
+    width: 115px;
+    height: 2px;
+    background-color: #45c3aa;
+    display: block;
+    transform: translateY(-4px);
+}
+
+/*.line
+{
+    height: 6px;
+    width: 60px;
+    background-color: #45c3aa;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 53px;
+    display: block;
+}
+/*.content 
+{
+    display: flex;
+    width: 1920px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.content_top 
+{
+    width: 390px;
+    padding-right: 60px;
+    margin-left: 460px;
+    display: flex;
+    margin: 0 auto;
+}
+.content_bottom 
+{
+    width: 590px;
+    padding-right: 20px;
+    /*margin-right: 460px;
+    margin: 0 auto;
+}
+.list_tittle
+{
+    font: 600 24px/30px "Open Sans", sans-serif;
+    color: #15a98c;
+    margin-bottom: 30px;
+}
+.list
+{
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.list_element
+{
+    font: 19px/23px "Georgia", sans-serif;
+    color: #555555;
+    margin-bottom: 20px;
+}
+.name
+{
+    font: 700 48px/1.5 "Open Sans", sans-serf;
+    color: #333333;
+    margin-bottom: 24px;
+    margin-top: 50px;
+}
+.hobby
+{
+    font: 400 36px/1.5 "Open Sans", sans-serf;
+    color: #333333;
+    margin-bottom: 32px;
+    margin-top: 61px;
+}
+.quote
+{
+    font: Italic 28px/30px "Georgia", sans-serif;
+    color: #848484;
+    padding-left: 50px;
+}
+.image
+{
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.line 
+{
+    background-color: #15a98c;
+    width: 60px;
+    height: 6px;
+    border-radius: 5px 5px 5px 5px;
+}
+.icon
+{
+    margin-top: 150px;
+}
+.author
+{
+    font: 600 16px/1.5 "Open Sans", sans-serf;
+    color: #000000;
+    margin-bottom: 168px;
+    padding-left: 64px;
+}
+.vk
+{
+    text-decoration: underline;
+    color: #15a98b;
+    font: 19px/1.5 "Georgia", sans-serf;
+}
+.my_hobby
+{
+    margin-top: 0;
+    margin-bottom: 61px;
+    font: 19px/20px "Georgia", sans-serf;
+    color: #555555;
+}
+.about_me
+{
+    margin-top: 52px;
+    font: 19px/20px "Georgia", sans-serf;
+    color: #555555;
+}
+.blockquote
+{
+    margin-left: 0px;
+    width: 570px;
+}*/
