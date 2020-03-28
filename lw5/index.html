@@ -1,55 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <script src="https://use.fontawesome.com/45484be365.js"></script>
   <title>Моя страница</title>
 </head>
 <body>
-  <main class="content">
-    <div class="content_top">
-      <img class="image" src="images/myphoto.jpg" alt="Фотография автора" />     
-      <blockquote class="blockquote">
-        <p class="quote">Мы берем на себя много, потому <br> что мало чего боимся</p> 
-        <small class="author">— Том Демарко. Deadline</small>
-      </blockquote>
+  <header>
+    <div class="container">
+      <ul class="nav">
+        <li class="nav_element"><a href="#about_me" class="nav_link"><i class="fa fa-user nav_icon"></i>Обо мне</a></li>
+        <li class="nav_element"><a href="#hobby" class="nav_link"><i class="fa fa-heart nav_icon"></i>Мое хобби</a></li>
+        <li class="nav_element"><a href="#films" class="nav_link"><i class="fa fa-camera nav_icon"></i>Любимые фильмы</a></li>
+      </ul>
     </div>
-    <article class="content_bottom">
-      <div class="content_right">      
-        <h1 class="name">Илья Мотовилов</h1>
-        <p class="about_me">
-          Привет! Меня зовут Илья Мотовилов. Я закончил 11-летнее обучение в
-          школе №24.Когда я учился в 8-ом классе я решил, что я хочу стать
-          программистом. Поэтому я поступил в ПГТУ на направление Программная
-          Инженерия в 2019 году и сейчас учусь на 1-ом курсе.Закончил школу без троек(но это не помогает)
-        </p>
-        <h4 class="hobby">Мое xобби</h4>
-        <p class="my_hobby">
-          Мое главное и любимое хобби-это занятие спортом. Больше всего я люблю
-          кататься на лыжах. И даже в неподходящую погоду я готов прокатиться на
-          лыжах с хорошей компанией. Еще одно мое любимое дело с некторого времени - это Верстка. И сон!
-        </p>
-        <a href="https://vk.com/id322279039" class="vk">Напиши мне &#8594;</a>
+  </header>
+  <main class="content">
+    <div class="container">
+      <div class="content_top">
+        <img class="image" src="images/myphoto.jpg" alt="Фотография автора" />
+        <div>
+          <blockquote class="blockquote">
+            <p class="quote">Мы берем на себя много, потому что <br> мало чего боимся</p> 
+            <small class="author">— Том Демарко. Deadline</small>
+          </blockquote>
+          <h1 id="about_me" class="name">Илья Мотовилов</h1>  
+        </div>     
       </div>
-      <div class="content_left">
-        <h2 class="list_tittle">Любимые актеры:</h2>
-        <ul class="list">
-          <li class="list_element">Леонардо Ди Каприо</li>
-          <li class="list_element">Сергей Бурунов</li>
-          <li class="list_element">Уилл Смит</li>
-          <li class="list_element">Джонни Депп</li>
-        </ul>
-        <h3 class="list_tittle">Любимые фильмы:</h3>
-        <ol class="list">
-          <li class="list_element">Поймай меня, если сможешь</li>
-          <li class="list_element">Волк с УоллСтрит</li>
-          <li class="list_element">Добро пожаловать в Зомбиленд</li>
-          <li class="list_element">Назад в Будущее</li>
-        </ol>
+      <article class="content_main">
+        <div class="content_right">   
+          <p class="about_me">
+            Привет! Меня зовут Илья Мотовилов. Я закончил 11-летнее обучение в
+            школе №24.Когда я учился в 8-ом классе я решил, что я хочу стать
+            программистом. Поэтому я поступил в ПГТУ на направление Программная
+            Инженерия в 2019 году и сейчас учусь на 1-ом курсе.Закончил школу без троек(но это не помогает)
+          </p>
+          <h4 id="hobby" class="hobby">Мое xобби</h4>
+          <p class="my_hobby">
+            Мое главное и любимое хобби-это занятие спортом. Больше всего я люблю
+            кататься на лыжах. И даже в неподходящую погоду я готов прокатиться на
+            лыжах с хорошей компанией. Еще одно мое любимое дело с некторого времени - это Верстка. И сон!
+          </p>
+          <a href="https://vk.com/id322279039" class="vk">Напиши мне &#8594;</a>
+        </div>
+        <div class="content_left">
+          <h2 class="list_tittle">Любимые актеры:</h2>
+          <ul class="list">
+            <li class="list_element">Леонардо Ди Каприо</li>
+            <li class="list_element">Сергей Бурунов</li>
+            <li class="list_element">Уилл Смит</li>
+            <li class="list_element">Джонни Депп</li>
+          </ul>
+          <h3 class="list_tittle">Любимые фильмы:</h3>
+          <ol class="list">
+            <li class="list_element">Поймай меня, если сможешь</li>
+            <li class="list_element">Волк с УоллСтрит</li>
+            <li class="list_element">Добро пожаловать в Зомбиленд</li>
+            <li class="list_element">Назад в Будущее</li>
+          </ol>
+        </div>
+      </article>
+    </div>
+    <div class="container_films">
+      <div class="content_bottom">
+        <h5 id="films" class="favourite_films">Любимые фильмы</h5>
+        <div class="films">
+          <div class="film">
+            <img class="films_image" src="images/firstfilm.jpg" alt="">
+            <h6 class="movie_title">Побег из Шоушенка</h6>
+            <p class="about_films">
+              Успешный банкир Энди Дюфрейн обвинен в убийстве собственной жены и ее любовника.
+              Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решетки. 
+              Каждый, кто попадает в эти стены, становится их рабом до конца жизни. 
+              Но Энди, вооруженный живым умом и доброй душой, отказывается мириться с приговором судьбы и начинает разрабатывать невероятно дерзкий план своего освобождения.
+            </p>
+          </div>
+          <div class="film">
+            <img class="films_image" src="images/secondfilm.jpg" alt="">
+            <h6 class="movie_title">Наркоз</h6>
+            <p class="about_films">
+              Клай Бересфорд вынужден лечь под нож. Однако в процессе операции на сердце он неожиданно приходит в себя. 
+              Находясь в парализованном состоянии, будучи не в силах пошевелить ни рукой, ни ногой, он, тем не менее, чувствует каждое касание скальпеля к своей плоти…
+            </p>
+          </div>
+          <div class="film">
+            <img class="films_image" src="images/thirdfilm.jpg" alt="">
+            <h6 class="movie_title">Астрал</h6>
+            <p class="about_films">
+              Джош и Рене переезжают со своими детьми в новый дом, но не успевают толком распаковать вещи, как начинаются странные события. 
+              Необъяснимо перемещаются предметы, в детской звучат странные звуки… 
+              Но в настоящий ужас приходят родители, когда их десятилетний сын Далтон впадает в кому. Все усилия врачей в больнице помочь мальчику безуспешны.
+            </p>
+          </div>
+          <div class="film">
+            <img class="films_image" src="images/fourthfilm.jpg" alt="">
+            <h6 class="movie_title">Гравитация</h6>
+            <p class="about_films">
+              Доктор Райан Стоун, блестящий специалист в области медицинского инжиниринга, отправляется в свою первую космическую миссию под 
+              командованием ветерана астронавтики Мэтта Ковальски, для которого этот полет — последний перед отставкой. 
+              Но во время, казалось бы, рутинной работы за бортом случается катастрофа. 
+              Шаттл уничтожен, а Стоун и Ковальски остаются совершенно одни; они находятся в связке друг с другом, и все, 
+              что они могут, — это двигаться по орбите в абсолютно черном пространстве без всякой связи с Землей и какой-либо надежды на спасение.
+            </p>
+          </div>
+        </div>
       </div>
-    </article>
+      <button class="button">
+        Все фильмы
+      </button>
+    </div>
   </main>
+  <footer class="copyright">
+    &copy; 2006-2020 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»
+  </footer>
 </body>
 </html>
